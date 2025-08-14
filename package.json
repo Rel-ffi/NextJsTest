@@ -1,5 +1,5 @@
 {
-  "name": "nextjstest",
+  "name": "nextjstestrelffi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,10 @@
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.6"
+    "next": "15.4.6",
+    "axios": "^1.11.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "typescript": "^5",

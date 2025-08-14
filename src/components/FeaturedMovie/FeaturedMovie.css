@@ -1,0 +1,70 @@
+.fm-featured-movie {
+    position: relative;
+    height: 70vh;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.fm-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+.fm-content {
+    padding: 40px;
+    max-width: 700px;
+}
+
+.fm-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.fm-overview {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.fm-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.fm-play-button,
+.fm-info-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.fm-play-button {
+    background-color: #e50914;
+    color: white;
+}
+
+.fm-play-button:hover {
+    background-color: #f40612;
+}
+
+.fm-info-button {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+}
+
+.fm-info-button:hover {
+    background-color: rgba(109, 109, 110, 0.9);
+}
+

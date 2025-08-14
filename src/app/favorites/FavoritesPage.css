@@ -1,0 +1,6 @@
+.favorites-page-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}

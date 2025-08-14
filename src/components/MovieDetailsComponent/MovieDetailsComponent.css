@@ -1,0 +1,90 @@
+.md-container {
+    position: relative;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 60px;
+}
+
+.md-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.md-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.md-tagline {
+    font-style: italic;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.md-genres {
+    margin-bottom: 15px;
+}
+
+.md-genre-badge {
+    background: #e50914;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.md-overview {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.md-meta {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+}
+
+.md-trailer-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.md-trailer-button:hover {
+    background: #f40612;
+}
+.md-like-button {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    margin-left: 10px;
+}
+
+.md-like-button.liked {
+    background: rgba(255, 0, 0, 0.7);
+}
+
+.md-like-button:hover {
+    transform: scale(1.05);
+}
+
+

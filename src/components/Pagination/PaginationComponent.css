@@ -1,0 +1,30 @@
+.pagination-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg-buttons {
+    padding: 5px 5px;
+    background: #333;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.pg-buttons:hover {
+    background: #e50914;
+    color: white;
+}
+
+.pg-buttons:disabled,
+.pg-buttons:disabled:hover,
+.pg-buttons:disabled:active {
+    background: #555;
+    color: #aaa;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+
